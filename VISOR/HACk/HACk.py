@@ -332,7 +332,7 @@ def run(parser,args):
 
 	#accepted variants
 	possible_variants = ['SNP', 'MNP', 'inversion', 'deletion', 'insertion', 'tandem duplication', 'inverted tandem duplication', 'perfect tandem repetition', 'approximate tandem repetition', 'tandem repeat expansion', 'tandem repeat contraction', 'reciprocal translocation', 'translocation cut-paste', 'translocation copy-paste', 'interspersed duplication']
-	valid_dna = 'ACGT'
+	valid_dna = 'ACGTN'
 	haplopattern=re.compile("^h[0-9]+$") #allowed haplotypes for inter-haplotype variants (h1,h2,...)
 
 	#this will contain variants for each haplotype
